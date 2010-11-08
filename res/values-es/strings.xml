@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+	<string name="app_name">CatDroid</string>
+	<string name="descargando">Descargando</string>
+	<string name="espere">Espere</string>
+	<string name="descargado">Descargado</string>
+	<string name="update">Actualizar</string>
+	<string name="testLogin">Actualizar</string>
+	<string name="browse">Navegar</string>
+	<string name="usuario">Nombre de usuario</string>
+	<string name="password">Contraseña</string>
+	<string name="readingXml">Leyendo XML</string>
+	<string name="cargandoApps">Cargando aplicaciones</string>
+	<string name="connecting">Conectando con el servidor</string>
+	<string name="installed">Instaladas</string>
+	<string name="installedVersion">Versión instalada</string>
+	<string name="serverVersion">Versión del servidor</string>
+	<string name="reinstall">Reinstalar</string>
+	<string name="alreadyInstalled">Esta aplicación ya está instalada</string>
+	<string name="uninstall">Desinstalar</string>
+	<string name="doNothing">No hacer nada</string>
+	<string name="settings">Preferencias</string>
+	<string name="autoupdate">Autoactualizar lista</string>
+	<string name="autoupdateFreq">Frecuencia de actualización</string>
+	<string name="updateAvailable">Hay una actualización disponible para:</string>
+	<string name="updatesAvailable">Hay actualizaciones disponibles</string>
+	<string name="hoy">Hoy</string>
+	<string name="ayer">Ayer</string>
+	<string name="diasAtras">días atrás</string>
+	<string name="browseDate">Navegar por fecha</string>
+	<string name="remaining">Falta:</string>
+	<string name="seconds">segundos</string>
+	<string name="descargaCompletada">Descarga completada</string>
+</resources>

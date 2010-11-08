@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="tiempos">
+		<item>Cada hora</item>
+		<item>Cada 2 horas</item>
+		<item>Cada 3 horas</item>
+		<item>Cada 4 horas</item>
+		<item>Cada 5 horas</item>
+		<item>Cada 6 horas</item>
+		<item>Cada 12 horas</item>
+		<item>Cada 24 horas</item>
+	</string-array>
+</resources>
