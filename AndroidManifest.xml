@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest android:versionCode="1" android:versionName="1.0"
+	package="org.catdroid.apps" xmlns:android="http://schemas.android.com/apk/res/android">
+	<application android:icon="@drawable/icon" android:label="@string/app_name">
+		<activity android:label="@string/app_name" android:configChanges="keyboard|keyboardHidden|orientation"
+			android:theme="@android:style/Theme.NoTitleBar" android:name=".Main">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".List" android:theme="@android:style/Theme.NoTitleBar" android:configChanges="keyboard|keyboardHidden|orientation">
+			<intent-filter>
+				<action android:name="android.intent.action.SEARCH" />
+			</intent-filter>
+			<meta-data android:name="android.app.searchable"
+				android:resource="@xml/searchable" />
+		</activity>
+		<activity android:name=".Opciones" android:configChanges="keyboard|keyboardHidden|orientation" />
+		<activity android:name=".UpdateStarter" android:configChanges="keyboard|keyboardHidden|orientation" />
+		<receiver android:name=".AutoUpdate" />
+	</application>
+	<uses-sdk android:minSdkVersion="3" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+</manifest>
