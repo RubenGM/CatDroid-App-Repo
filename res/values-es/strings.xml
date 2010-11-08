@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
-	<string name="app_name">CatDroid</string>
+	<string name="app_name">Repositorio CatDroid</string>
 	<string name="descargando">Descargando</string>
 	<string name="espere">Espere</string>
 	<string name="descargado">Descargado</string>
